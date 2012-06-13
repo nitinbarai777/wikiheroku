@@ -14,7 +14,7 @@ group :production do
 gem "pg"
 gem "thin"
 end
-
+gem 'gdata'
 
 gem 'mysql2', '< 0.3'
 

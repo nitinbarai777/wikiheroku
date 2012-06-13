@@ -14,6 +14,7 @@ GEM
     daemons (1.1.8)
     eventmachine (0.12.10)
     excon (0.14.0)
+    gdata (1.1.2)
     heroku (2.26.7)
       heroku-api (~> 0.2.4)
       launchy (>= 0.3.2)
@@ -50,6 +51,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  gdata
   heroku
   mysql2 (< 0.3)
   pg
