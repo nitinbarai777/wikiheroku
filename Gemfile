@@ -11,8 +11,8 @@ gem 'rake', '0.8.7'
 #gem 'sqlite3'
 
 group :production do 
- gem "pg"
- gem "thin"
+gem "pg"
+gem "thin"
 end
 
 
