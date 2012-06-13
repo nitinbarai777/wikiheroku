@@ -9,5 +9,5 @@ require 'rake/rdoctask'
 
 require 'tasks/rails'
 
-require 'jcode' if RUBY_VERSION < '1.9' #require 'jcode'
+require 'jcode'
 
