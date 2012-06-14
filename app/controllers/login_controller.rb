@@ -21,7 +21,7 @@ class LoginController < ApplicationController
 		flash[:error_login] = 'Login successfully.'
 		redirect_to :controller => "pages", :action => "index"
     else
-  		flash[:error_login] = 'Credentials you entered are not valid.Please check the spelling for both email address and password.'
+  		flash[:error_login] = 'Credentials you entered are not valid.Please check the spelling for both email address and password...'
 	    redirect_to :action => "new"
     end
   end
