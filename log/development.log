@@ -23746,3 +23746,34 @@ Processing PagesController#index (for 127.0.0.1 at 2012-06-14 10:47:06) [GET]
 Rendering template within layouts/default
 Rendering pages/index
 Completed in 318ms (View: 173, DB: 20) | 200 OK [http://local.wikiheroku.ntn/wiki]
+
+
+Processing LoginController#logout (for 127.0.0.1 at 2012-06-14 11:03:57) [GET]
+Redirected to http://local.wikiheroku.ntn/
+Completed in 3ms (DB: 0) | 302 Found [http://local.wikiheroku.ntn/logout]
+
+
+Processing LoginController#new (for 127.0.0.1 at 2012-06-14 11:03:57) [GET]
+Rendering template within layouts/default
+Rendering login/new
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://local.wikiheroku.ntn/]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2012-06-14 11:04:03) [GET]
+Rendering users/new
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://local.wikiheroku.ntn/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2012-06-14 11:21:38) [GET]
+Rendering users/new
+Completed in 32ms (View: 11, DB: 0) | 200 OK [http://local.wikiheroku.ntn/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2012-06-14 11:21:40) [GET]
+Rendering users/new
+Completed in 11ms (View: 4, DB: 0) | 200 OK [http://local.wikiheroku.ntn/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2012-06-14 11:21:41) [GET]
+Rendering users/new
+Completed in 11ms (View: 3, DB: 0) | 200 OK [http://local.wikiheroku.ntn/users/new]
