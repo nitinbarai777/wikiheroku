@@ -13,8 +13,9 @@ gem 'rake', '0.8.7'
 group :production do 
 gem "pg"
 gem "thin"
+
 end
-gem 'gdata'
+
 
 gem 'mysql2', '< 0.3'
 
