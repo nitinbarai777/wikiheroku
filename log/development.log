@@ -23777,3 +23777,128 @@ Completed in 11ms (View: 4, DB: 0) | 200 OK [http://local.wikiheroku.ntn/users/n
 Processing UsersController#new (for 127.0.0.1 at 2012-06-14 11:21:41) [GET]
 Rendering users/new
 Completed in 11ms (View: 3, DB: 0) | 200 OK [http://local.wikiheroku.ntn/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2012-06-14 11:24:23) [GET]
+Rendering users/new
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://local.wikiheroku.ntn/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2012-06-14 11:24:24) [GET]
+Rendering users/new
+Completed in 11ms (View: 4, DB: 0) | 200 OK [http://local.wikiheroku.ntn/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2012-06-14 11:24:24) [GET]
+Rendering users/new
+Completed in 94ms (View: 4, DB: 0) | 200 OK [http://local.wikiheroku.ntn/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2012-06-14 11:25:31) [GET]
+Rendering users/new
+Completed in 12ms (View: 4, DB: 0) | 200 OK [http://local.wikiheroku.ntn/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2012-06-14 11:25:33) [GET]
+Rendering users/new
+Completed in 11ms (View: 4, DB: 0) | 200 OK [http://local.wikiheroku.ntn/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2012-06-14 11:25:33) [GET]
+Rendering users/new
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://local.wikiheroku.ntn/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2012-06-14 11:25:33) [GET]
+Rendering users/new
+Completed in 12ms (View: 3, DB: 0) | 200 OK [http://local.wikiheroku.ntn/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2012-06-14 11:25:34) [GET]
+Rendering users/new
+Completed in 13ms (View: 4, DB: 0) | 200 OK [http://local.wikiheroku.ntn/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2012-06-14 11:25:34) [GET]
+Rendering users/new
+Completed in 12ms (View: 4, DB: 0) | 200 OK [http://local.wikiheroku.ntn/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2012-06-14 11:25:34) [GET]
+Rendering users/new
+Completed in 11ms (View: 4, DB: 0) | 200 OK [http://local.wikiheroku.ntn/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2012-06-14 11:25:34) [GET]
+Rendering users/new
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://local.wikiheroku.ntn/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2012-06-14 11:25:35) [GET]
+Rendering users/new
+Completed in 11ms (View: 3, DB: 0) | 200 OK [http://local.wikiheroku.ntn/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2012-06-14 11:25:35) [GET]
+Rendering users/new
+Completed in 11ms (View: 3, DB: 0) | 200 OK [http://local.wikiheroku.ntn/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2012-06-14 11:25:35) [GET]
+Rendering users/new
+Completed in 12ms (View: 4, DB: 0) | 200 OK [http://local.wikiheroku.ntn/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2012-06-14 11:25:35) [GET]
+Rendering users/new
+Completed in 12ms (View: 4, DB: 0) | 200 OK [http://local.wikiheroku.ntn/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2012-06-14 11:25:35) [GET]
+Rendering users/new
+Completed in 12ms (View: 4, DB: 0) | 200 OK [http://local.wikiheroku.ntn/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2012-06-14 11:25:36) [GET]
+Rendering users/new
+Completed in 12ms (View: 4, DB: 0) | 200 OK [http://local.wikiheroku.ntn/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2012-06-14 11:25:36) [GET]
+Rendering users/new
+Completed in 14ms (View: 4, DB: 0) | 200 OK [http://local.wikiheroku.ntn/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2012-06-14 11:25:36) [GET]
+Rendering users/new
+Completed in 111ms (View: 4, DB: 0) | 200 OK [http://local.wikiheroku.ntn/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2012-06-14 11:25:36) [GET]
+Rendering users/new
+Completed in 12ms (View: 4, DB: 0) | 200 OK [http://local.wikiheroku.ntn/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2012-06-14 11:25:36) [GET]
+Rendering users/new
+Completed in 13ms (View: 5, DB: 0) | 200 OK [http://local.wikiheroku.ntn/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2012-06-14 11:25:37) [GET]
+Rendering users/new
+Completed in 11ms (View: 4, DB: 0) | 200 OK [http://local.wikiheroku.ntn/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2012-06-14 11:25:37) [GET]
+Rendering users/new
+Completed in 11ms (View: 4, DB: 0) | 200 OK [http://local.wikiheroku.ntn/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2012-06-14 11:25:37) [GET]
+Rendering users/new
+Completed in 11ms (View: 4, DB: 0) | 200 OK [http://local.wikiheroku.ntn/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2012-06-14 11:25:37) [GET]
+Rendering users/new
+Completed in 20ms (View: 12, DB: 0) | 200 OK [http://local.wikiheroku.ntn/users/new]
