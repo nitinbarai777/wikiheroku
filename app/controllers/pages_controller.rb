@@ -8,7 +8,7 @@ class PagesController < ApplicationController
   caches_page :show
 
   def index
-	@pages = Page.paginate(:conditions => ["namespace_id = 1"], :page => params[:page], :per_page => 1, :order => 'created_at DESC')
+	@pages = Page.paginate(:conditions => ["namespace_id = 1"], :page => params[:page], :per_page => 5, :order => 'created_at DESC')
     #redirect_to :action => "show", :id => "Main_Page"
   end
 
