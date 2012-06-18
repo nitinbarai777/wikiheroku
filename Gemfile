@@ -17,7 +17,7 @@ gem "thin"
 end
 
 
-gem 'mysql2', '< 0.3'
+#gem 'mysql2', '< 0.3'
 
 gem "will_paginate", "2.3.16"
 
