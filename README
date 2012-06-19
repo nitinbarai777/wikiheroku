@@ -1,13 +1,8 @@
-Install
+Installation steps
 
-=======
-1) gem update --system 1.4.2
+==================
+
+
+1) gem update --system 1.4.2 (Run only if get any error)
 2) bundle install
 3) rake db:migrate
-
-
-Admin credential
-=================
-
-username - admin@wiki.com
-password - admin
