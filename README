@@ -3,6 +3,7 @@ Installation steps
 ==================
 
 
-1) gem update --system 1.4.2 (Run only if get any error)
-2) bundle install
-3) rake db:migrate
+
+1) bundle install
+2) rake db:migrate
+3) gem update --system 1.4.2 (Run only if get any error)
