@@ -11,16 +11,8 @@
 
 ActiveRecord::Schema.define(:version => 20090713035953) do
 
-  create_table "namespaces", :force => true do |t|
-    t.string   "name",                                 :null => false
-    t.string   "title",         :default => "article", :null => false
-    t.integer  "alias_for_id"
-    t.boolean  "interwiki",     :default => false,     :null => false
-    t.string   "interwiki_url"
-    t.integer  "talk_for_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
+# Could not dump table "namespaces" because of following StandardError
+#   Unknown type 'bool' for column 'interwiki'
 
   create_table "page_links", :force => true do |t|
     t.integer  "page_id",    :null => false

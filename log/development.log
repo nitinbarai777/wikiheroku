@@ -23902,3 +23902,1833 @@ Completed in 11ms (View: 4, DB: 0) | 200 OK [http://local.wikiheroku.ntn/users/n
 Processing UsersController#new (for 127.0.0.1 at 2012-06-14 11:25:37) [GET]
 Rendering users/new
 Completed in 20ms (View: 12, DB: 0) | 200 OK [http://local.wikiheroku.ntn/users/new]
+
+
+Processing LoginController#new (for 127.0.0.1 at 2012-06-14 17:13:18) [GET]
+Rendering template within layouts/default
+Rendering login/new
+Completed in 71ms (View: 44, DB: 0) | 200 OK [http://local.wikiheroku.ntn/]
+
+
+Processing LoginController#new (for 127.0.0.1 at 2012-06-14 17:13:25) [GET]
+Rendering template within layouts/default
+Rendering login/new
+Completed in 12ms (View: 4, DB: 0) | 200 OK [http://local.wikiheroku.ntn/]
+
+
+Processing LoginController#new (for 127.0.0.1 at 2012-06-14 17:13:25) [GET]
+Rendering template within layouts/default
+Rendering login/new
+Completed in 11ms (View: 4, DB: 0) | 200 OK [http://local.wikiheroku.ntn/]
+
+
+Processing LoginController#new (for 127.0.0.1 at 2012-06-14 17:13:26) [GET]
+Rendering template within layouts/default
+Rendering login/new
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://local.wikiheroku.ntn/]
+
+
+Processing LoginController#new (for 127.0.0.1 at 2012-06-14 17:13:26) [GET]
+Rendering template within layouts/default
+Rendering login/new
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://local.wikiheroku.ntn/]
+
+
+Processing LoginController#new (for 127.0.0.1 at 2012-06-14 17:13:26) [GET]
+Rendering template within layouts/default
+Rendering login/new
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://local.wikiheroku.ntn/]
+
+
+Processing LoginController#new (for 127.0.0.1 at 2012-06-14 17:13:27) [GET]
+Rendering template within layouts/default
+Rendering login/new
+Completed in 11ms (View: 4, DB: 0) | 200 OK [http://local.wikiheroku.ntn/]
+
+
+Processing LoginController#new (for 127.0.0.1 at 2012-06-18 12:47:46) [GET]
+Rendering template within layouts/default
+Rendering login/new
+Completed in 103ms (View: 83, DB: 0) | 200 OK [http://local.wikiheroku.ntn/]
+
+
+Processing LoginController#new (for 127.0.0.1 at 2012-06-19 11:17:54) [GET]
+Rendering template within layouts/default
+Rendering login/new
+Completed in 144ms (View: 124, DB: 0) | 200 OK [http://local.wikiheroku.ntn/]
+
+
+Processing LoginController#create (for 127.0.0.1 at 2012-06-19 11:17:56) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"C17+NJCT1zI9gnmRgmekNuqoAR+Nf9tpzrGil4iSToE=", "user"=>{"password"=>"admin", "email"=>"admin@wiki.com"}}
+  [4;36;1mUser Load (34.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`email` = 'admin@wiki.com') LIMIT 1[0m
+Redirected to http://local.wikiheroku.ntn/wiki
+Completed in 45ms (DB: 35) | 302 Found [http://local.wikiheroku.ntn/login]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2012-06-19 11:17:56) [GET]
+  [4;35;1mPage Load (34.9ms)[0m   [0mSELECT * FROM `pages` WHERE (namespace_id = 1) ORDER BY created_at DESC LIMIT 0, 5[0m
+Rendering template within layouts/default
+Rendering pages/index
+Completed in 379ms (View: 284, DB: 35) | 200 OK [http://local.wikiheroku.ntn/wiki]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2012-06-19 11:25:47) [GET]
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (namespace_id = 1) ORDER BY created_at DESC LIMIT 0, 5[0m
+Rendering template within layouts/default
+Rendering pages/index
+Completed in 13ms (View: 5, DB: 0) | 200 OK [http://local.wikiheroku.ntn/wiki]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2012-06-19 11:25:48) [GET]
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (namespace_id = 1) ORDER BY created_at DESC LIMIT 0, 5[0m
+Rendering template within layouts/default
+Rendering pages/index
+Completed in 13ms (View: 5, DB: 0) | 200 OK [http://local.wikiheroku.ntn/wiki]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2012-06-19 11:25:49) [GET]
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (namespace_id = 1) ORDER BY created_at DESC LIMIT 0, 5[0m
+Rendering template within layouts/default
+Rendering pages/index
+Completed in 15ms (View: 6, DB: 0) | 200 OK [http://local.wikiheroku.ntn/wiki]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2012-06-19 11:25:50) [GET]
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (namespace_id = 1) ORDER BY created_at DESC LIMIT 0, 5[0m
+Rendering template within layouts/default
+Rendering pages/index
+Completed in 14ms (View: 5, DB: 0) | 200 OK [http://local.wikiheroku.ntn/wiki]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2012-06-19 11:25:51) [GET]
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (namespace_id = 1) ORDER BY created_at DESC LIMIT 0, 5[0m
+Rendering template within layouts/default
+Rendering pages/index
+Completed in 13ms (View: 5, DB: 0) | 200 OK [http://local.wikiheroku.ntn/wiki]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2012-06-19 11:25:52) [GET]
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (namespace_id = 1) ORDER BY created_at DESC LIMIT 0, 5[0m
+Rendering template within layouts/default
+Rendering pages/index
+Completed in 13ms (View: 5, DB: 0) | 200 OK [http://local.wikiheroku.ntn/wiki]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2012-06-19 11:26:05) [GET]
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (namespace_id = 1) ORDER BY created_at DESC LIMIT 0, 5[0m
+Rendering template within layouts/default
+Rendering pages/index
+Completed in 13ms (View: 5, DB: 0) | 200 OK [http://local.wikiheroku.ntn/wiki]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2012-06-19 11:26:05) [GET]
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (namespace_id = 1) ORDER BY created_at DESC LIMIT 0, 5[0m
+Rendering template within layouts/default
+Rendering pages/index
+Completed in 15ms (View: 6, DB: 0) | 200 OK [http://local.wikiheroku.ntn/wiki]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2012-06-19 11:26:06) [GET]
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (namespace_id = 1) ORDER BY created_at DESC LIMIT 0, 5[0m
+Rendering template within layouts/default
+Rendering pages/index
+Completed in 14ms (View: 5, DB: 0) | 200 OK [http://local.wikiheroku.ntn/wiki]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2012-06-19 11:26:06) [GET]
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (namespace_id = 1) ORDER BY created_at DESC LIMIT 0, 5[0m
+Rendering template within layouts/default
+Rendering pages/index
+Completed in 13ms (View: 5, DB: 0) | 200 OK [http://local.wikiheroku.ntn/wiki]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2012-06-19 11:26:29) [GET]
+  Parameters: {"id"=>"Main_Page"}
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (namespace_id = 1) ORDER BY created_at DESC LIMIT 0, 5[0m
+Rendering template within layouts/default
+Rendering pages/index
+Completed in 13ms (View: 5, DB: 0) | 200 OK [http://local.wikiheroku.ntn/wiki?id=Main_Page]
+  [4;36;1mSQL (19.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePages (20090710024551)
+Migrating to CreateUsers (20090710024555)
+Migrating to CreateRevisions (20090710024605)
+Migrating to CreateNamespaces (20090710024623)
+Migrating to CreatePageLinks (20090713035953)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("page_links")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("pages")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("revisions")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("users")[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePages (20090710024551)
+Migrating to CreateUsers (20090710024555)
+Migrating to CreateRevisions (20090710024605)
+Migrating to CreateNamespaces (20090710024623)
+Migrating to CreatePageLinks (20090713035953)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("page_links")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("pages")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("revisions")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("users")[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (133.5ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (101.5ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePages (20090710024551)
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCREATE TABLE "pages" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255) NOT NULL, "namespace_id" integer NOT NULL, "current_revision_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20090710024551')[0m
+Migrating to CreateUsers (20090710024555)
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255) NOT NULL, "password" varchar(255) NOT NULL, "last_ip_address" varchar(255) NOT NULL, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mUser Create (0.2ms)[0m   [0mINSERT INTO "users" ("last_ip_address", "created_at", "updated_at", "email", "password") VALUES('192.168.0.91', '2012-06-19 07:50:36', '2012-06-19 07:50:36', 'admin@wiki.com', 'admin')[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090710024555')[0m
+Migrating to CreateRevisions (20090710024605)
+  [4;35;1mSQL (0.5ms)[0m   [0mCREATE TABLE "revisions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "page_id" integer NOT NULL, "user_id" integer NOT NULL, "content" text NOT NULL, "html" text, "changes" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090710024605')[0m
+Migrating to CreateNamespaces (20090710024623)
+  [4;35;1mSQL (0.5ms)[0m   [0mCREATE TABLE "namespaces" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255) NOT NULL, "title" varchar(255) DEFAULT 'article' NOT NULL, "alias_for_id" integer, "interwiki" bool DEFAULT 'f' NOT NULL, "interwiki_url" varchar(255), "talk_for_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mNamespace Create (0.4ms)[0m   [0;1mINSERT INTO "namespaces" ("title", "alias_for_id", "created_at", "updated_at", "talk_for_id", "name", "interwiki_url", "interwiki") VALUES('article', NULL, '2012-06-19 07:50:37', '2012-06-19 07:50:37', NULL, 'main', NULL, 'f')[0m
+  [4;35;1mNamespace Create (0.2ms)[0m   [0mINSERT INTO "namespaces" ("title", "alias_for_id", "created_at", "updated_at", "talk_for_id", "name", "interwiki_url", "interwiki") VALUES('help page', NULL, '2012-06-19 07:50:37', '2012-06-19 07:50:37', NULL, 'help', NULL, 'f')[0m
+  [4;36;1mNamespace Create (0.2ms)[0m   [0;1mINSERT INTO "namespaces" ("title", "alias_for_id", "created_at", "updated_at", "talk_for_id", "name", "interwiki_url", "interwiki") VALUES('article', NULL, '2012-06-19 07:50:37', '2012-06-19 07:50:37', 1, 'talk', NULL, 'f')[0m
+  [4;35;1mNamespace Create (0.2ms)[0m   [0mINSERT INTO "namespaces" ("title", "alias_for_id", "created_at", "updated_at", "talk_for_id", "name", "interwiki_url", "interwiki") VALUES('article', NULL, '2012-06-19 07:50:37', '2012-06-19 07:50:37', 2, 'help_talk', NULL, 'f')[0m
+  [4;36;1mNamespace Create (0.2ms)[0m   [0;1mINSERT INTO "namespaces" ("title", "alias_for_id", "created_at", "updated_at", "talk_for_id", "name", "interwiki_url", "interwiki") VALUES('article', NULL, '2012-06-19 07:50:37', '2012-06-19 07:50:37', NULL, 'file', NULL, 'f')[0m
+  [4;35;1mNamespace Create (0.2ms)[0m   [0mINSERT INTO "namespaces" ("title", "alias_for_id", "created_at", "updated_at", "talk_for_id", "name", "interwiki_url", "interwiki") VALUES('special', NULL, '2012-06-19 07:50:37', '2012-06-19 07:50:37', NULL, 'special', NULL, 'f')[0m
+  [4;36;1mNamespace Create (0.2ms)[0m   [0;1mINSERT INTO "namespaces" ("title", "alias_for_id", "created_at", "updated_at", "talk_for_id", "name", "interwiki_url", "interwiki") VALUES('article', 5, '2012-06-19 07:50:37', '2012-06-19 07:50:37', NULL, 'image', NULL, 'f')[0m
+  [4;35;1mNamespace Create (0.2ms)[0m   [0mINSERT INTO "namespaces" ("title", "alias_for_id", "created_at", "updated_at", "talk_for_id", "name", "interwiki_url", "interwiki") VALUES('template', NULL, '2012-06-19 07:50:37', '2012-06-19 07:50:37', NULL, 'template', NULL, 'f')[0m
+  [4;36;1mNamespace Create (0.2ms)[0m   [0;1mINSERT INTO "namespaces" ("title", "alias_for_id", "created_at", "updated_at", "talk_for_id", "name", "interwiki_url", "interwiki") VALUES('article', NULL, '2012-06-19 07:50:37', '2012-06-19 07:50:37', 8, 'template_talk', NULL, 'f')[0m
+  [4;35;1mNamespace Create (0.2ms)[0m   [0mINSERT INTO "namespaces" ("title", "alias_for_id", "created_at", "updated_at", "talk_for_id", "name", "interwiki_url", "interwiki") VALUES('article', 5, '2012-06-19 07:50:37', '2012-06-19 07:50:37', NULL, 'media', NULL, 'f')[0m
+  [4;36;1mNamespace Create (0.2ms)[0m   [0;1mINSERT INTO "namespaces" ("title", "alias_for_id", "created_at", "updated_at", "talk_for_id", "name", "interwiki_url", "interwiki") VALUES('article', NULL, '2012-06-19 07:50:37', '2012-06-19 07:50:37', NULL, 'category', NULL, 'f')[0m
+  [4;35;1mNamespace Create (0.2ms)[0m   [0mINSERT INTO "namespaces" ("title", "alias_for_id", "created_at", "updated_at", "talk_for_id", "name", "interwiki_url", "interwiki") VALUES('article', NULL, '2012-06-19 07:50:37', '2012-06-19 07:50:37', NULL, 'wikipedia', 'http://en.wikipedia.org/wiki/', 't')[0m
+  [4;36;1mNamespace Create (0.2ms)[0m   [0;1mINSERT INTO "namespaces" ("title", "alias_for_id", "created_at", "updated_at", "talk_for_id", "name", "interwiki_url", "interwiki") VALUES('article', NULL, '2012-06-19 07:50:37', '2012-06-19 07:50:37', NULL, 'mw', 'http://www.mediawiki.org/wiki/', 't')[0m
+  [4;35;1mNamespace Load (0.3ms)[0m   [0mSELECT * FROM "namespaces" WHERE ("namespaces"."name" = 'help') LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages"."namespace_id" = 2 AND "pages"."name" = 'Lists') LIMIT 1[0m
+  [4;35;1mPage Create (0.3ms)[0m   [0mINSERT INTO "pages" ("created_at", "updated_at", "namespace_id", "current_revision_id", "name") VALUES('2012-06-19 07:50:37', '2012-06-19 07:50:37', 2, NULL, 'Lists')[0m
+  [4;36;1mRevision Create (0.4ms)[0m   [0;1mINSERT INTO "revisions" ("page_id", "created_at", "updated_at", "user_id", "html", "content", "changes") VALUES(1, '2012-06-19 07:50:37', '2012-06-19 07:50:37', 1, NULL, 'This page deals with creating lists in Mediawiki.
+
+== List basics ==
+
+[[MediaWiki]] offers three types of lists. ''''''Ordered lists'''''', ''''''unordered lists'''''', and ''''''definition lists''''''. In the following sections, ordered lists are used for examples. Unordered lists would give corresponding results.
+
+{|border=1 width="79%"
+!wikitext!!rendering
+|-
+|
+ * Lists are easy to do:
+ ** start every line
+ * with a star
+ ** more stars mean
+ *** deeper levels
+||
+* Lists are easy to do:
+** start every line
+* with a star
+** more stars mean 
+*** deeper levels
+|-
+|
+ *A newline
+ *in a list 
+ marks the end of the list.
+ Of course
+ *you can
+ *start again.
+|
+*A newline
+*in a list 
+marks the end of the list.
+Of course
+*you can
+*start again.
+|-
+|
+ # Numbered lists are good
+ ## very organized
+ ## easy to follow
+|
+# Numbered lists are good
+## very organized
+## easy to follow
+|-
+|
+ * You can also
+ **break lines
+ **like this
+|
+* You can also
+**break lines
+**like this
+|-
+|
+ ; Definition lists
+ ; item : definition
+ ; semicolon plus term
+ : colon plus definition
+|
+; Definition lists
+; item : definition
+; semicolon plus term
+: colon plus definition
+|-
+|
+ * Or create mixed lists
+ *# and nest them
+ *#* like this
+ *#*; definitions
+ *#*: work:
+ *#*; apple
+ *#*; banana
+ *#*: fruits
+|
+* Or create mixed lists
+*# and nest them
+*#* like this
+*#*; definitions
+*#*: work: 
+*#*; apple
+*#*; banana
+*#*: fruits
+|}{{-}}
+
+== Paragraphs in lists ==
+
+For simplicity, list items in wiki markup cannot be longer than a paragraph. A following blank line will end the list and reset the counter on ordered lists. Separating unordered list items usually has no noticeable effects.
+
+Paragraphs can be forced in lists by using HTML tags. Two line break symbols, <code><nowiki><br><br></nowiki></code>, will create the desired effect. So will enclosing all but the first paragraph with <code><nowiki><p>...</p></nowiki></code>
+
+For a list with items of more than one paragraph long, adding a blank line between items may be necessary to avoid confusion.
+
+*lists
+**ordered lists
+**unordered lists
+***definition lists
+
+==Continuing a list item after a sub-item==
+
+In HTML, a list item may contain several sublists, not necessarily adjacent; thus there may be parts of the list item not only before the first sublist, but also between sublists, and after the last one; however, in wiki-syntax, sublists follow the same rules as sections of a page: the only possible part of the list item not in sublists is before the first sublist.
+
+In the case of an unnumbered first-level list in wikitext code this limitation can be overcome by splitting the list into multiple lists; indented text between the partial lists may visually serve as part of a list item after a sublist; however, this may give, depending on CSS, a blank line before and after each list, in which case, for uniformity, every first-level list item could be made a separate list.
+
+Numbered lists illustrate that what should look like one list may, for the software, consist of multiple lists; unnumbered lists give a corresponding result, except that the problem of restarting with 1 is not applicable.
+
+{| style="border:1px;border-spacing:1px;background-color:black;" cellpadding="5"
+|- style="background-color:white;"
+|
+ <nowiki>
+<ol>
+ <li>list item A1
+ <ol>
+ <li>list item B1</li>
+ <li>list item B2</li>
+ </ol>continuing list item A1
+ </li>
+ <li>list item A2</li>
+</ol></nowiki>
+| <ol>
+ <li>list item A1
+ <ol>
+ <li>list item B1</li>
+ <li>list item B2</li>
+ </ol>continuing list item A1
+ </li>
+ <li>list item A2</li>
+</ol>
+|- style="background-color:#E0E0E0;font-weight:bold;text-align:center;"
+| colspan="2" | vs.
+|- style="background-color:white;"
+|
+ #list item A1
+ ##list item B1
+ ##list item B2
+ #:continuing list item A1
+ #list item A2
+|
+#list item A1
+##list item B1
+##list item B2
+#:continuing list item A1
+#list item A2
+|}
+
+One level deeper, with a sublist item continuing after a sub-sublist, one gets even more blank lines; however, the continuation of the first-level list is not affected:
+<pre>
+#list item A1
+##list item B1
+###list item C1
+##:continuing list item B1
+##list item B2
+#list item A2
+</pre>
+gives
+#list item A1
+##list item B1
+###list item C1
+##:continuing list item B1
+##list item B2
+#list item A2
+
+See also {{tim|List demo}} and [[Help:Section#Subdivisions in general|subdivisions]].
+
+== Changing the list type ==
+
+The list type (which type of marker appears before the list item) can be changed in CSS by setting the [http://www.w3.org/TR/REC-CSS2/generate.html#lists list-style-type] property:
+
+{|border=1 width="79%"
+!wikitext!!rendering
+|-
+|
+ <nowiki>
+<ol style="list-style-type:lower-roman">
+ <li>About the author</li>
+ <li>Foreword to the first edition</li>
+ <li>Foreword to the second edition</li>
+</ol></nowiki>
+|<ol style="list-style-type:lower-roman">
+ <li>About the author</li>
+ <li>Foreword to the first edition</li>
+ <li>Foreword to the second edition</li>
+</ol>
+|-
+|}
+
+==Extra indentation of lists==
+In a numbered list in a large font, some browsers do not show more than two digits, unless extra indentation is applied (if there are multiple columns: for each column). This can be done with CSS:
+ ol { margin-left: 2cm}
+or alternatively, like below.
+
+{|border=1
+!wikitext!!rendering 
+! style="width: 40%" | comments
+|-
+|
+ <nowiki>
+:#abc
+:#def
+:#ghi
+ </nowiki>
+|
+:#abc
+:#def
+:#ghi
+| A list of one or more lines starting with a colon creates a [http://www.w3.org/TR/html4/struct/lists.html#edef-DL definition list] without definition terms, and with the items as definition descriptions, hence indented. However, if the colons are in front of the codes "*" or "#" of an unordered or ordered list, the list is treated as one definition description, so the whole list is indented.
+|-
+|
+ <nowiki>
+<ul>
+ <ol>
+ <li>abc</li>
+ <li>def</li>
+ <li>ghi</li>
+ </ol>
+</ul>
+</nowiki>
+|
+<ul>
+ <ol>
+ <li>abc</li>
+ <li>def</li>
+ <li>ghi</li>
+ </ol>
+</ul>
+| MediaWiki translates an unordered list (ul) without any list items (li) into a div with a <code>style="margin-left: 2em"</code>, causing indentation of the contents. This is ''''''the most versatile method'''''', as it allows starting with a number other than 1, see below.
+
+|-
+|
+ <nowiki>
+<ul>
+#abc
+#def
+#ghi
+</ul>
+</nowiki>
+|
+<ul>
+#abc
+#def
+#ghi
+</ul>
+|Like above, with the content of the "unordered list without any list items", which itself is an ordered list, expressed with # codes. The HTML produced, and hence the rendering, is the same. This is the ''''''recommended'''''' method when not starting with a number other than 1.
+
+|}
+
+To demonstrate that all three methods show all digits of 3-digit numbers, see [[m:Help:List demo|List demo]].
+
+==Specifying a starting value==
+Specifying a starting value is only possible with HTML syntax.
+(W3C has deprecated the <code>start</code> and <code>value</code> attributes as used below in HTML 4.01 and XHTML 1.0. But as of 2007, no popular web browsers implement CSS counters, which were to replace these attributes. Wikimedia projects use XHTML Transitional, which contains the deprecated attributes.)
+
+<pre>
+<ol start="9">
+<li>Amsterdam</li>
+<li>Rotterdam</li>
+<li>The Hague</li>
+</ol>
+</pre>
+gives
+<ol start="9">
+<li>Amsterdam</li>
+<li>Rotterdam</li>
+<li>The Hague</li>
+</ol>
+
+Or:
+<pre>
+<ol>
+<li value="9">Amsterdam</li>
+<li value="8">Rotterdam</li>
+<li value="7">The Hague</li>
+</ol>
+</pre>
+gives
+<ol>
+<li value="9">Amsterdam</li>
+<li value="8">Rotterdam</li>
+<li value="7">The Hague</li>
+</ol>
+
+==Comparison with a table==
+Apart from providing automatic numbering, the numbered list also aligns the contents of the items, comparable with using table syntax:
+<pre>
+{|
+|-
+| align=right | 9.||Amsterdam
+|-
+| align=right | 10.||Rotterdam
+|-
+| align=right | 11.||The Hague
+|}
+</pre>
+gives
+{|
+|-
+| align=right | 9.||Amsterdam
+|-
+| align=right | 10.||Rotterdam
+|-
+| align=right | 11.||The Hague
+|}
+
+This non-automatic numbering has the advantage that if a text refers to the numbers, insertion or deletion of an item does not disturb the correspondence.
+
+==Multi-column bulleted list==
+<pre>
+{| 
+| 
+*1
+*2 
+| 
+*3
+*4
+|}
+</pre>
+gives:
+{| 
+| 
+*1
+*2 
+| 
+*3
+*4
+|}
+
+==Multi-column numbered list==
+Specifying a starting value is useful for a numbered list with multiple columns, to avoid restarting from one in each column. As mentioned above, this is only possible with HTML-syntax (for the first column either wiki-syntax or HTML-syntax can be used).
+
+In combination with the extra indentation explained in the previous section:
+<pre>
+{| valign="top"
+|-
+|<ul><ol start="125"><li>a<li>bb<li>ccc</ol></ul>
+|<ul><ol start="128"><li>ddd<li>ee<li>f</ol></ul>
+|}
+</pre>
+
+gives
+
+{| valign="top"
+|-
+|<ul><ol start="125"><li>a<li>bb<li>ccc</ol></ul>
+|<ul><ol start="128"><li>ddd<li>ee<li>f</ol></ul>
+|}
+
+Using {{tim|multi-column numbered list}} the computation of the starting values can be automated, and only the first starting value and the number of items in each column except the last has to be specified. Adding an item to, or removing an item from a column requires adjusting only one number, the number of items in that column, instead of changing the starting numbers for all subsequent columns.
+
+<pre>{{Multi-column numbered list|125|a<li>bb<li>ccc|3|<li>ddd<li>ee<li>f}}</pre>
+
+gives
+
+{{Multi-column numbered list|125|a<li>bb<li>ccc|3|<li>ddd<li>ee<li>f}}
+
+<pre>{{Multi-column numbered list|lst=lower-alpha|125|a<li>bb<li>ccc|3|<li>ddd<li>ee|2|<li>f}}</pre>
+
+gives
+
+{{Multi-column numbered list|lst=lower-alpha|125|a<li>bb<li>ccc|3|<li>ddd<li>ee|2|<li>f}}
+
+<pre>{{Multi-column numbered list|lst=lower-roman|125|a<li>bb<li>ccc|3|<li>ddd<li>ee|2|<li>f}}</pre>
+
+gives
+
+{{Multi-column numbered list|lst=lower-roman|125|a<li>bb<li>ccc|3|<li>ddd<li>ee|2|<li>f}}
+
+<pre>{{Multi-column numbered list|lst=disc|125|a<li>bb<li>ccc|3|<li>ddd<li>ee|2|<li>f}}</pre>
+
+gives
+
+{{Multi-column numbered list|lst=disc|125|a<li>bb<li>ccc|3|<li>ddd<li>ee|2|<li>f}}
+
+Note that the starting values of each column (125, +3, +2) have no effect when the disc list type is used.
+
+==Streamlined style or horizontal style==
+It is also possible to present short lists using very basic formatting, such as:
+
+ <nowiki>''''Title of list:''''</nowiki> example 1, example 2, example 3
+
+''''Title of list:'''' example 1, example 2, example 3
+
+This style requires less space on the page, and is preferred if there are only a few entries in the list, it can be read easily, and a direct edit point is not required. The list items should start with a lowercase letter unless they are proper nouns.
+
+==Tables==
+A one-column table is very similar to a list, but it allows sorting. If the wikitext itself is already sorted with the same sortkey, this advantage does not apply.
+A multiple-column table allows sorting on any column.
+
+See also .
+
+==Changing unordered lists to ordered ones==
+With the CSS
+ ul { list-style: decimal }
+unordered lists are changed to ordered ones. This applies (as far as the CSS selector does not restrict this) to all ul-lists in the HTML source code:
+*those produced with *
+*those with <nowiki><ul></nowiki> in the wikitext
+*those produced by the system
+
+Since each special page, like other pages, has a class based on the pagename, one can separately specify for each type whether the lists should be ordered, see [[Help:User contributions#User styles]] and [[Help:What links here#User styles]].
+
+However, it does not seem possible to make all page history lists ordered (unless one makes ''''all'''' lists ordered), because the class name is based on the page for which the history is viewed. 
+
+==See also==
+*[[mw:Extension:Sort2]]: creates a list with list code only at the start and end, not per item; allows easy change of list type; sorts list
+
+==Wikipedia-specific help==
+
+* [[Wikipedia:Lists]] - For suggested styles of lists.''''
+* {{tn|·}} and {{tn|•}} - Dots and bullets for horizontal link lists, such as in [[Template:Navbox|navboxes]], which look like lists, but do not use HTML list mark-up.
+**{{tl|flatlist}} - for a more semantically-correct and accessible way of marking up such lists.
+* [[Wikipedia:Line break handling]] - Covers among other things how to properly handle the line wrapping in horizontal link lists.
+
+[[Category:Wikipedia help]]
+
+[[ar:مساعدة:قوائم]]
+[[de:Hilfe:Listen]]
+[[dsb:Pomoc:Lisćina]]
+[[es:Ayuda:Listas]]
+[[hsb:Pomoc:Lisćina]]
+[[it:Aiuto:Liste]]
+[[sr:Помоћ:Списак]]
+
+', 'db:migrate')[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+  [4;36;1mPage Update (0.4ms)[0m   [0;1mUPDATE "pages" SET "current_revision_id" = 1, "updated_at" = '2012-06-19 07:50:37' WHERE "id" = 1[0m
+  [4;35;1mNamespace Load (0.3ms)[0m   [0mSELECT * FROM "namespaces" WHERE ("namespaces"."name" = 'help') LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages"."namespace_id" = 2 AND "pages"."name" = 'Cheatsheet') LIMIT 1[0m
+  [4;35;1mPage Create (0.2ms)[0m   [0mINSERT INTO "pages" ("created_at", "updated_at", "namespace_id", "current_revision_id", "name") VALUES('2012-06-19 07:50:37', '2012-06-19 07:50:37', 2, NULL, 'Cheatsheet')[0m
+  [4;36;1mRevision Create (0.3ms)[0m   [0;1mINSERT INTO "revisions" ("page_id", "created_at", "updated_at", "user_id", "html", "content", "changes") VALUES(2, '2012-06-19 07:50:37', '2012-06-19 07:50:37', 1, NULL, '{{PD Help Page}}
+You can format your text using wiki markup. This consists of normal characters like asterisks, single quotes or equation marks which have a special function in the wiki, sometimes depending on their position. For example, to format a word in ''''italic'''', you include it in two single quotes like <code><nowiki>''''this''''</nowiki></code>
+
+== Text formatting markup ==
+{| class="wikitable"
+! style="width:15%" |Description
+! style="width:45%" |You type
+! style="width:40%" |You get
+|-
+! colspan="3" align="center" style="background:#A7C1F2" | character formatting - ''''applies anywhere''''
+|-
+|Italic text
+|<pre>''''italic''''</pre>
+|''''italic''''
+|-
+| Bold text
+|<pre>''''''bold''''''</pre>
+|''''''bold''''''
+|-
+| Bold and italic
+|<pre>''''''''''bold & italic''''''''''</pre>
+|''''''''''bold & italic''''''''''
+|-
+|Escape wiki markup
+|
+<pre>&lt;nowiki>no ''''markup''''</nowiki></pre>
+|<nowiki>no ''''markup''''</nowiki>
+|-
+! colspan="3" align="center" style="background:#A7C1F2"| section formatting - ''''only at the beginning of the line''''
+|-
+|Headings of different levels 
+|
+<pre>=level 1=
+==level 2==
+===level 3===
+====level 4====
+=====level 5=====
+======level 6======</pre>
+An article with four or more headings will automatically create a [http://en.wikipedia.org/wiki/Wikipedia:Section#Table_of_contents_.28TOC.29 table of contents].
+
+|
+<!-- little hack to prevent TOC viewing -->
+<div style="font-size: 188%; margin: 0; padding-top: .5em; padding-bottom: .17em; border-bottom: 1px solid #aaa;">Level 1</div>
+<div style="font-size: 150%; margin: 0; padding-top: .5em; padding-bottom: .17em; border-bottom: 1px solid #aaa;">Level 2</div>
+<div style="font-size: 132%; border-bottom: none; font-weight: bold;">Level 3</div>
+<div style="font-size: 100%; border-bottom: none; font-weight: bold;">Level 4</div>
+<div style="font-size: 86%; border-bottom: none; font-weight: bold;">Level 5</div>
+<div style="font-size: 80%; border-bottom: none; font-weight: bold;">Level 6</div>
+|-
+|Horizontal rule
+|
+<pre>----</pre>
+|
+----
+|-
+|Bullet list
+|
+<pre>
+* one
+* two
+* three
+** three point one
+** three point two
+</pre>
+Inserting a blank line will end the first list and start another.
+|
+* one
+* two
+* three
+** three point one
+** three point two
+|-
+|Numbered list
+|
+<pre>
+# one
+# two<br />spanning several lines<br />without breaking the numbering
+# three
+## three point one
+## three point two
+</pre>
+|
+# one
+# two<br />spanning several lines<br />without breaking the numbering
+# three
+## three point one
+## three point two
+|-
+|Definition list
+|
+<pre>
+;item 1
+:definition 1
+;item 2
+:definition 2-1
+:definition 2-2
+</pre>
+|
+;item 1
+:definition 1
+;item 2
+:definition 2-1
+:definition 2-2
+|-
+| Adopting definition list to indent text
+|
+<pre>:Single indent
+::Double indent
+:::::Multiple indent</pre>
+This adoption may be controversial from the viewpoint of accessibility.
+|
+:Single indent
+::Double indent
+:::::Multiple indent
+|-
+| Mixture of different types of list
+|
+<pre>
+# one
+# two
+#* two point one
+#* two point two
+# three
+#; three item one
+#: three def one
+# four
+#: four def one
+#: this rather looks like the continuation of # four
+#: and thus often used instead of <br />
+# five
+## five sub 1
+### five sub 1 sub 1
+## five sub 2
+;item 1
+:* definition 1-1
+:* definition 1-2
+:
+;item 2
+:# definition 2-1
+:# definition 2-2
+</pre>
+The usage of <code>#:</code> and <code>*:</code> for breaking a line within an item may also be controversial.
+|
+# one
+# two
+#* two point one
+#* two point two
+# three
+#; three item one
+#: three def one
+# four
+#: four def one
+#: this rather looks like the continuation of <code># four</code>
+#: and thus often used instead of <code><nowiki><br /></nowiki></code>
+# five
+## five sub 1
+### five sub 1 sub 1
+## five sub 2
+;item 1
+:* definition 1-1
+:* definition 1-2
+:
+;item 2
+:# definition 2-1
+:# definition 2-2
+|-
+|-
+|Preformatted text
+|
+<pre>
+ preformatted text is done with
+ a ''''''space'''''' at the 
+ ''''beginning'''' of the line
+</pre>
+This way of preformatting only applies to section formatting, and character formatting markups are still effective.
+|
+ preformatted text is done with
+ a ''''''space'''''' at the 
+ ''''beginning'''' of the line
+|}
+
+== Paragraphs ==
+MediaWiki ignores normal line breaks. To start a new paragraph, leave an empty line. You can force a line break within a paragraph with the HTML tags <code><nowiki><br /></nowiki></code>.
+
+== HTML ==
+Some [[wikipedia:HTML|HTML]] tags are allowed in MediaWiki, for example <code><nowiki><code></nowiki></code>, <code><nowiki><div></nowiki></code>, <code><nowiki><span></nowiki></code> and <code><nowiki><font></nowiki></code>. These apply anywhere you insert them.
+
+{| class="wikitable"
+!Description
+!You type
+!You get
+|-
+| Strikethrough
+|<pre><del>Strikethrough</del></pre>
+|<del>Strikethrough</del>
+|-
+|Fixed width text
+|
+<pre><tt>Fixed width text</tt></pre>
+|
+<tt>Fixed width text</tt>
+|-
+|Blockquotes
+|
+<pre>
+text text text text text text text text text text text text
+text text text text text text text text text text text text
+<blockquote> quote quote quote quote quote quote </blockquote>
+text text text text text text text text text text text text
+</pre>
+|
+text text text text text text text text text text text text
+text text text text text text text text text text text text
+<blockquote> quote quote quote quote quote quote </blockquote>
+text text text text text text text text text text text text
+|-
+|Comment
+|
+<pre><!--This is comment--></pre>
+
+Text can only be viewed in the edit window.
+|
+<!--This is comment-->
+|-
+|Completely preformatted text
+|
+<pre><pre>this way, all markups are ''''''ignored''''''&lt;/pre></pre>
+|
+<pre>
+this way, all markups are ''''''ignored''''''</pre>
+|}
+{{Admin tip|tip=If you trust your users you can allow full HTML by setting <code>{{mediawiki|Manual:$wgRawHtml|$wgRawHtml}} = true;</code> in {{mediawiki|Manual:LocalSettings.php|LocalSettings.php}}.}}
+
+== Other formatting ==
+Beyond the text formatting markup shown above, here are some other formatting references:
+*[[Help:Links|Links]]
+*[[Help:Images|Images]]
+*[[Help:Tables|Tables]]
+
+{{Languages}}
+
+[[Category:Help|Formatting]]
+
+', 'db:migrate')[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages"."id" = 2) [0m
+  [4;36;1mPage Update (0.2ms)[0m   [0;1mUPDATE "pages" SET "current_revision_id" = 2, "updated_at" = '2012-06-19 07:50:37' WHERE "id" = 2[0m
+  [4;35;1mNamespace Load (0.3ms)[0m   [0mSELECT * FROM "namespaces" WHERE ("namespaces"."name" = 'template') LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages"."namespace_id" = 8 AND "pages"."name" = 'PageNotFound') LIMIT 1[0m
+  [4;35;1mPage Create (0.2ms)[0m   [0mINSERT INTO "pages" ("created_at", "updated_at", "namespace_id", "current_revision_id", "name") VALUES('2012-06-19 07:50:37', '2012-06-19 07:50:37', 8, NULL, 'PageNotFound')[0m
+  [4;36;1mRevision Create (0.2ms)[0m   [0;1mINSERT INTO "revisions" ("page_id", "created_at", "updated_at", "user_id", "html", "content", "changes") VALUES(3, '2012-06-19 07:50:37', '2012-06-19 07:50:37', 1, NULL, '''''''{{SITENAME}} does not have an article with this exact name.'''''' Please [[Special:Search/{{PAGENAME}}|search for {{PAGENAME}} in {{SITENAME}}]] to check for alternative titles or spellings.
+
+* Start the {{PAGENAME}} article.
+* [[Special:Search/{{PAGENAME}}|Search for {{PAGENAME}}]] in existing articles.
+* [[Special:WhatLinksHere/{{PAGENAME}}|Look for pages within {{SITENAME}} that link to this title]].
+
+'''''' Other reasons this message may be displayed: ''''''
+
+* If a page was recently created here, it may not yet be visible because of a delay in updating the database; wait a few minutes and try the purge function.
+* Titles on {{SITENAME}} are [[Case sensitivity|case sensitive]] except for the first character; please check alternate capitalizations and consider adding a redirect here to the correct title.
+* If the page has been deleted, check the deletion log, and see [[why was my page deleted?]].
+
+', 'db:migrate')[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages"."id" = 3) [0m
+  [4;36;1mPage Update (0.2ms)[0m   [0;1mUPDATE "pages" SET "current_revision_id" = 3, "updated_at" = '2012-06-19 07:50:37' WHERE "id" = 3[0m
+  [4;35;1mNamespace Load (0.3ms)[0m   [0mSELECT * FROM "namespaces" WHERE ("namespaces"."name" = 'help') LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages"."namespace_id" = 2 AND "pages"."name" = 'Contents') LIMIT 1[0m
+  [4;35;1mPage Create (0.2ms)[0m   [0mINSERT INTO "pages" ("created_at", "updated_at", "namespace_id", "current_revision_id", "name") VALUES('2012-06-19 07:50:37', '2012-06-19 07:50:37', 2, NULL, 'Contents')[0m
+  [4;36;1mRevision Create (0.3ms)[0m   [0;1mINSERT INTO "revisions" ("page_id", "created_at", "updated_at", "user_id", "html", "content", "changes") VALUES(4, '2012-06-19 07:50:37', '2012-06-19 07:50:37', 1, NULL, 'wikicloth help page
+
+__NOEDITSECTION__
+
+* [[Help:Cheatsheet|Overview]]
+* [[Help:Links|]]
+* [[Help:Images|]]
+* [[Help:Lists|]]
+* [[Help:Tables|]]
+
+', 'db:migrate')[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages"."id" = 4) [0m
+  [4;36;1mPage Update (0.3ms)[0m   [0;1mUPDATE "pages" SET "current_revision_id" = 4, "updated_at" = '2012-06-19 07:50:37' WHERE "id" = 4[0m
+  [4;35;1mNamespace Load (0.3ms)[0m   [0mSELECT * FROM "namespaces" WHERE ("namespaces"."name" = 'help') LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages"."namespace_id" = 2 AND "pages"."name" = 'Images') LIMIT 1[0m
+  [4;35;1mPage Create (0.3ms)[0m   [0mINSERT INTO "pages" ("created_at", "updated_at", "namespace_id", "current_revision_id", "name") VALUES('2012-06-19 07:50:37', '2012-06-19 07:50:37', 2, NULL, 'Images')[0m
+  [4;36;1mRevision Create (0.4ms)[0m   [0;1mINSERT INTO "revisions" ("page_id", "created_at", "updated_at", "user_id", "html", "content", "changes") VALUES(5, '2012-06-19 07:50:37', '2012-06-19 07:50:37', 1, NULL, '{{tocright}}
+[[File:Example.jpg|thumb|Caption here]]
+
+This article covers how to ''''''display images'''''' on a wiki. Any [[Special:UserLogin|logged in]] user can upload images to a Wikia - see [[Help:Images]] for help on how to do so.
+
+Once the file is uploaded, copy or otherwise make note of the image''s name: it will be in the format "Image:Filename.jpg". (Note: this name is case-sensitive: using "File:Filename.JPG" will fail to display the image.)
+
+:''''Please note, as of MediaWiki 1.14 (deployed on Wikia in April 2009), the image namespace has changed from "Image:" to "File:". Both forms can be used, but File is the namespace shown on the wiki.''''
+
+==Simple image insertion==
+The normal method of adding images to a page is to use the following code:
+
+<pre>
+[[File:Filename.jpg|thumb|Caption here]]
+</pre>
+
+This produces an image ''floated'' on the right side of the page. On this article, the table of contents pushes it down (by design) - but when there is nothing else next to the text, the image will show immediately next to it.
+
+==More advanced image display techniques==
+The most basic syntax for displaying an image is <nowiki>[[File:Filename.jpg]]</nowiki>. Additional parameters can be added between pipe ("|") characters, including:
+* ''''''frame'''''' - places a frame around the image without altering its size. The original image size is used. Sizing does not work when |frame| is used. 
+* ''''''thumb'''''' - creates a reduced-size thumbnail image, contained in a frame
+* ''''''##px'''''' - specify the desired width of the image in pixels. 
+** Note that it is usually best to allow MediaWiki to automatically size images and thumbnails to suit the user''s preferences and monitor size and resolution; hard-coding image sizes in this way can cause unwanted behavior at some resolutions.
+* ''''''caption'''''' - the last parameter in the image syntax will be used to provide a caption in a thumbnailed or framed image. Captions can contain links and other [[Help:wikitext|wiki syntax]].
+
+===Code examples===
+<pre>
+ [[File:Filename.jpg]]
+ [[File:Filename.jpg|Caption here]]
+ [[File:Filename.jpg|frame]]
+ [[File:Filename.jpg|thumb|60px|Caption here]]
+</pre>
+
+See also: [[Wikipedia:Wikipedia:Extended image syntax|Wikipedia:Extended image syntax]].
+
+===Examples in action===
+{| cellpadding="10"
+|- valign="top"
+| style="border:1px solid #CCCCCC; width:50%;" |
+To use an image in an article, you simply surround the full name (including the "Image" part) in double square brackets:<br/><br/>
+''''''<nowiki>[[File:Example.jpg]]</nowiki>'''''' will give you: [[File:Example.jpg]]
+| style="border:1px solid #CCCCCC;" |
+You can resize by adding the size in pixels between two pipes:<br/><br/>
+<nowiki>[[File:Example.jpg</nowiki>''''''|50px|'''''']] will give you: [[File:Example.jpg|50px|]]
+|- valign="top"
+| style="border:1px solid #CCCCCC;" |
+You can make an image a thumbnail an image by adding "thumb" in the same way. If a pipe is there from a previous variable, you don''t need to add another:<br/><br/>
+<nowiki>[[File:Example.jpg|50px</nowiki>''''''|thumb|'''''']] will give you: [[File:Example.jpg|50px|thumb|]]
+| style="border:1px solid #CCCCCC;" |
+This is automatically formatted to the right of the page. You can change this by adding "left" or "center":<br/><br/>
+<nowiki>[[File:Example.jpg|50px|thumb</nowiki>''''''|left|'''''']] will give you: [[File:Example.jpg|50px|thumb|left|]]
+|- valign="top"
+| style="border:1px solid #CCCCCC;" |
+Anything not matching an input ("left", "thumb", etc) becomes a caption:<br/><br/>
+<nowiki>[[File:Example.jpg|50px|thumb|left|</nowiki>''''''Alt'''''']] will give you: [[File:Example.jpg|50px|thumb|left|Alt]]
+| style="border:1px solid #CCCCCC;" |
+To prevent text wrapping around an image, use "none"<br/><br/>
+''''''<nowiki>[[File:Example.jpg|50px|none]]</nowiki>'''''' will give you: [[File:Example.jpg|50px|none]] followed by more text
+|- valign="top"
+| style="border:1px solid #CCCCCC;" |
+To link to the image page without showing it on the page, use a colon before the word "Image":<br/><br/>
+''''''<nowiki>[[:File:Example.jpg]]</nowiki>'''''' will give you: [[:File:Example.jpg]]
+| style="border:1px solid #CCCCCC;" |
+To link to the file without showing it on the page, you can use "Media" instead of "Image":<br/><br/>
+''''''<nowiki>[[Media:Example.jpg]]</nowiki>'''''' will give you: [[Media:Example.jpg]]
+|
+|}
+
+===Notes on resizing images===
+When sizing option is used, the MediaWiki software can generate downsized image thumbnails, improving the quality of the thumbnail.
+
+However, MediaWiki does not generate upscaled images, so if you make an image larger than the original size, it will use the client''s (browser''s) method of upscaling images. The effect can depend on your browser.
+
+==Can I fix the placement of the image if the image has caption?==
+Let''s say you want something like this:
+<pre>
+This is the text............
+ 
+[[Image here with caption!]]
+ 
+Another text................
+</pre>
+
+The image syntax "none" is useless in this case because you want to use caption too.
+
+Currently there is no image-related syntax that could help with this, but you can use the following code or template to achieve it: put <code><nowiki><br style="clear:left;" /></nowiki></code> just below the image (this is sometimes replaced on wikis with the template <code><nowiki>{{clear}}</nowiki></code> or <code><nowiki>{{clr}}</nowiki></code>
+
+===Sample code===
+<blockquote>
+<pre>
+This is the text............
+
+[[File:Example.jpg|thumb|left|Caption is here!]] <br style="clear:left;" />
+
+Another text................
+</pre>
+</blockquote>
+
+===Result===
+<blockquote>
+This is the text............
+
+[[File:Example.jpg|thumb|left|Caption is here!]] <br style="clear:left;" />
+
+Another text................
+</blockquote>
+
+==Can I display many images together?==
+The <nowiki><gallery></nowiki> tag is a MediaWiki feature for creating image galleries.
+
+<pre>
+<gallery>
+Example.jpg
+Example.jpg|Captioned
+Example.jpg|[[Help:Wikitext]] can be used in gallery captions.
+</gallery>
+</pre>
+
+produces:
+<gallery>
+Example.jpg
+Example.jpg|Captioned
+Example.jpg|[[Help:Wikitext]] can be used in gallery captions.
+</gallery>
+
+Brackets are used only for adding links within captions. Captions are optional. Images are separated by newlines.
+
+You can specify how many items you want in each row by using the <code>perrow</code> parameter to the gallery tag, such as <code><nowiki><gallery perrow="5"></nowiki></code>
+
+==Can I link images to articles?==
+Yes, using the new link= syntax introduced in MediaWiki 1.14. The following are all valid usages of the link ability:
+
+<pre>
+[[File:Image.png|link=Article]]
+[[File:Image.png|link=w:c:diablo]]
+[[File:Image.png|link=http://www.xyz.com]]
+[[File:Image.png|link=Category:Name]]
+</pre>
+
+This is best used for navigational images, such as shown by on the circular images on [http://residentevil.wikia.com/index.php?title=Resident_Evil_Wiki&oldid=49674 here]. Note, this technique only works with unframed/unthumbnailed images.
+
+', 'db:migrate')[0m
+  [4;35;1mPage Load (0.5ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages"."id" = 5) [0m
+  [4;36;1mPage Update (0.2ms)[0m   [0;1mUPDATE "pages" SET "current_revision_id" = 5, "updated_at" = '2012-06-19 07:50:37' WHERE "id" = 5[0m
+  [4;35;1mNamespace Load (0.5ms)[0m   [0mSELECT * FROM "namespaces" WHERE ("namespaces"."name" = 'help') LIMIT 1[0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages"."namespace_id" = 2 AND "pages"."name" = 'Links') LIMIT 1[0m
+  [4;35;1mPage Create (0.2ms)[0m   [0mINSERT INTO "pages" ("created_at", "updated_at", "namespace_id", "current_revision_id", "name") VALUES('2012-06-19 07:50:37', '2012-06-19 07:50:37', 2, NULL, 'Links')[0m
+  [4;36;1mRevision Create (0.3ms)[0m   [0;1mINSERT INTO "revisions" ("page_id", "created_at", "updated_at", "user_id", "html", "content", "changes") VALUES(6, '2012-06-19 07:50:37', '2012-06-19 07:50:37', 1, NULL, '{{PD Help Page}}
+There are four sorts of links in MediaWiki: 
+# ''''''[[#Internal links|internal links]]'''''' to other pages in the wiki
+# ''''''[[#External links|external links]]'''''' to other websites
+# ''''''[[#Interwiki links|interwiki links]]'''''' to other websites registered to the wiki in advance
+# ''''''[[#Interlanguage links|Interlanguage links]]'''''' to other websites registered as other language versions of the wiki
+
+== Internal links ==
+To add an internal link, enclose the name of the page you want to link to in double square brackets. When you save the page, you''ll see the new link pointing to your page. If the page exists already it is displayed in blue, if it does not, in red.
+Selflinks to the current page are not transformed in URLs but displayed in bold.
+(If you really want to link to the current page, use an anchor (see below), or <nowiki>[[#top|current page]]</nowiki> which always links to the top.)
+
+The first letter of the target page is automatically capitalized, unless otherwise set by the admins, and spaces are represented as underscores (typing an underscore in the link will have a similar effect as typing a space, but is not recommended, since the underscore will also be shown in the text).
+
+{| border="1" class="wikitable"
+!Description
+!You type
+!You get
+|-
+|Internal link
+|<pre>[[Main Page]]</pre>
+|[[Main Page]]
+|-
+|Piped link 
+|<pre>[[Main Page|different text]]</pre>
+|[[Main Page|different text]]
+|-
+|Redirect
+|<pre>#REDIRECT [[Main Page]]</pre>
+See also [[Help:Redirects]]
+| &rarr; [[Main Page]]
+|-
+|Internal link to an anchor
+|<pre>[[#See also]]</pre>
+[[Help:Formatting|Section headings]] and the [[#top|top]] of the page are automatically anchored.
+|[[#See also]]
+|-
+|Internal link to an anchor at another page
+|<pre>[[Help:Images#See also]]</pre>
+|[[Help:Images#See also]]
+|-
+|Internal link to the current page''s talk page
+|<pre>[[{{TALKPAGENAME}}|Discussion]]</pre>
+See also [[Help:Magic_words#Page_names]]
+|[[{{TALKPAGENAME}}|Discussion]]
+|-
+|Internal link to a subpage
+|<pre>[[/example]]</pre>
+Shortcut for <nowiki>[[Help:Links/example]]</nowiki>.
+|[[/example]]
+|-
+|Internal link to a category page
+|<pre>[[:Category:Help]]</pre>
+See also [[Help:Categories]]
+|[[:Category:Help]]
+|-
+|Internal link to an image or a file of other types
+|<pre>[[media:example.jpg]]
+
+[[media:example.pdf]]</pre>
+See also [[Help:Images]]
+|[[media:example.jpg]]
+
+[[media:example.pdf]]
+|}
+
+== External links ==
+{| border="1" class="wikitable"
+!style="width:15%"|Description
+!style="width:45%"|You type
+!style="width:40%"|You get
+|-
+|External link
+|<pre>http://mediawiki.org</pre>
+|http://mediawiki.org
+|-
+|External link with different label
+|<pre>[http://mediawiki.org MediaWiki]</pre>
+|[http://mediawiki.org MediaWiki]
+|-
+|External link numbered
+|<pre>[http://mediawiki.org]</pre>
+|[http://mediawiki.org]
+|-
+|External link icons
+|<pre>
+[http://en.wikipedia.org/wiki/.avi video]
+[http://en.wikipedia.org/wiki/.wav sound]
+[http://en.wikipedia.org/wiki/.pdf document]
+</pre>
+External link icons may differ depending on the file type of the target.
+|
+[http://en.wikipedia.org/wiki/.avi video]
+[http://en.wikipedia.org/wiki/.wav sound]
+[http://en.wikipedia.org/wiki/.pdf document]
+|-
+|External link to the same host
+|<pre>[http://{{SERVERNAME}}/pagename]</pre>
+|[http://{{SERVERNAME}}/pagename]
+|-
+|External link to other host passing the pagename
+|<pre>[http://google.com/search?q={{PAGENAMEE}}]</pre>
+|[http://google.com/search?q={{PAGENAMEE}}]
+|-
+|Mailto link
+|<pre>[mailto:info@example.org email me]</pre>
+|[mailto:info@example.org email me]
+|-
+|Mailto named with subject line and body
+|<pre>[mailto:info@example.org?Subject=URL%20Encoded%20Subject&body=Body%20Text info]</pre>
+|[mailto:info@example.org?Subject=URL%20Encoded%20Subject&body=Body%20Text info]
+|}
+
+{{admin tip|tip=
+Which protocols (like http:) are allowed for links is controlled by the {{mediawiki|Manual:$wgUrlProtocols|$wgUrlProtocols}}<!--Should these admin tips even be here? This is supposed to be end user help is it not? --> setting. 
+}}
+{{admin tip|tip=
+To remove the “external link icons“ from next to each of the external links, add the following to the page located at <code>MediaWiki:Monobook.css</code> on your wiki.
+
+<source lang="css">
+#bodyContent a.external,
+#bodyContent a[href ^="gopher://"] {
+ background: none;
+ padding-right: 0;
+}
+</source>
+}}
+
+=== How to avoid auto-links ===
+By default, when you write a URL as is, it will be transformed to an external link.
+
+To avoid that effect, put the URL between <code>&lt;nowiki&gt;</code> tags as in:
+ <nowiki><nowiki>http://mediawiki.org</nowiki></nowiki>
+
+== Interwiki links ==
+Interwiki links are links with the internal link markup to a website registered in advance. For example, you can link to the Sunflower article on http://en.wikipedia.org by typing <code><nowiki>[[wikipedia:Sunflower]]</nowiki></code>, which will result in a link [[wikipedia:Sunflower]]. This is because <code><nowiki>http://en.wikipedia.org/wiki/</nowiki></code> is registered to your wiki by default with the prefix of <code>wikipedia</code>. ''''This link may not work properly, if the admin of your wiki has changed the setting.''''
+
+Similar to internal page links, you can create piped links, with alternate link label, e.g. <code><nowiki>[[wikipedia:Sunflower|big yellow flower]]</nowiki></code>.
+
+Basically this is an abbreviation for longer URLs. A very similar link could be created as a normal external link by typing <code><nowiki>[http://en.wikipedia.org/wiki/Sunflower Sunflower]</nowiki></code>, but interwiki links allow you to type out an easy and compact link, almost as if you are linking to a page on your own wiki.
+
+{{admin tip|tip=See {{mediawiki|Manual:Interwiki}} for the management of interwiki links of your wiki.}}
+
+=== Interlanguage links ===
+If your wiki has other language versions, you may find “interlanguage links” in the [[Help:Navigation#Sidebar|sidebar]], just below [[Help:Navigation#Toolbox|toolbox]] in the box named “{{lcfirst:{{int:otherlanguages}}}}.”
+
+Interlanguage links behave similar to interwiki links, except that they are listed in the sidebar. To create an interlanguage link from a page, just type <code><nowiki>[[</nowiki>''''language prefix'''':pagename]]</code> wherever you like in the page; the language prefix is the prefix specified at your wiki for the other language version (typically the [[wikipedia:ISO 639|ISO language code]]).
+
+If you want to make the interlanguage link to appear in the content of the page, you can add a colon before the language prefix, e. g. <code><nowiki>[[:en:Sunflower]]</nowiki></code>.
+
+== See also ==
+* [[Help:Linked images|Linked images]]
+
+{{Languages}}
+
+[[Category:Help|Links]]
+[[Category:Link]]
+
+', 'db:migrate')[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages"."id" = 6) [0m
+  [4;36;1mPage Update (0.5ms)[0m   [0;1mUPDATE "pages" SET "current_revision_id" = 6, "updated_at" = '2012-06-19 07:50:37' WHERE "id" = 6[0m
+  [4;35;1mNamespace Load (0.3ms)[0m   [0mSELECT * FROM "namespaces" WHERE ("namespaces"."name" = 'main') LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages"."namespace_id" = 1 AND "pages"."name" = 'Main_Page') LIMIT 1[0m
+  [4;35;1mPage Create (0.2ms)[0m   [0mINSERT INTO "pages" ("created_at", "updated_at", "namespace_id", "current_revision_id", "name") VALUES('2012-06-19 07:50:37', '2012-06-19 07:50:37', 1, NULL, 'Main_Page')[0m
+  [4;36;1mRevision Create (0.2ms)[0m   [0;1mINSERT INTO "revisions" ("page_id", "created_at", "updated_at", "user_id", "html", "content", "changes") VALUES(7, '2012-06-19 07:50:37', '2012-06-19 07:50:37', 1, NULL, '<!-- THIS TEMPLATE IS COPIED INTO Main_Page WHEN DB IS CREATED -->
+
+__NOEDITSECTION__
+
+You have successfully installed [http://code.google.com/p/wikicloth-wiki/ wikicloth-wiki]. Now that you have your wiki up and running it is time to configure a few things...
+
+== Getting Started ==
+
+''''''You can ignore these steps at the moment, as they are not implemented yet''''''
+
+=== Create First Account ===
+
+The first account you create is a special account. It cannot be removed, and has full superuser privlidges.
+
+* [[Special:NewUser|Create a new account]]
+* [[Special:Groups|Manage Groups/Permissions]]
+* [[Special:ManageUsers|Manage Users]]
+
+=== Configure Your Site Settings ===
+
+After you have created your first account you will want to configure your site settings to personalise the wiki software to your needs.
+
+* [[Special:ConfigureSiteInfo|Site Information/General Settings]]
+* [[Special:Namespaces|Namespaces and Interwiki profiles]]
+* [[Special:Permissions|Default Access/Permissions]]
+
+=== Edit This Page ===
+
+When everything is configured and ready to go edit this page and you are done.
+
+== Other Information ==
+
+For a list of known bugs or to submit a bug report please view our [http://code.google.com/p/wikicloth-wiki/issues/list bug tracker]. Remember: This application is still pre-release and therefore a missing feature is not a bug. For issues related to the WikiCloth plugin please see the [http://code.google.com/p/wikicloth/ WikiCloth project page].
+
+', 'db:migrate')[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages"."id" = 7) [0m
+  [4;36;1mPage Update (0.2ms)[0m   [0;1mUPDATE "pages" SET "current_revision_id" = 7, "updated_at" = '2012-06-19 07:50:37' WHERE "id" = 7[0m
+  [4;35;1mNamespace Load (0.3ms)[0m   [0mSELECT * FROM "namespaces" WHERE ("namespaces"."name" = 'help') LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages"."namespace_id" = 2 AND "pages"."name" = 'Tables') LIMIT 1[0m
+  [4;35;1mPage Create (0.2ms)[0m   [0mINSERT INTO "pages" ("created_at", "updated_at", "namespace_id", "current_revision_id", "name") VALUES('2012-06-19 07:50:37', '2012-06-19 07:50:37', 2, NULL, 'Tables')[0m
+  [4;36;1mRevision Create (0.6ms)[0m   [0;1mINSERT INTO "revisions" ("page_id", "created_at", "updated_at", "user_id", "html", "content", "changes") VALUES(8, '2012-06-19 07:50:37', '2012-06-19 07:50:37', 1, NULL, '{{PD Help Page}}
+''''''Tables'''''' may be authored in wiki pages using either XHTML table elements directly, or using wikicode formatting to define the table. XHTML table elements and their use are well described on various web pages and will not be discussed here. The benefit of wikicode is that the table is constructed of character symbols which tend to make it easier to perceive the table structure in the article editing view compared to XHTML table elements.
+
+As a general rule, it is best to avoid using a table unless you need one. Table markup often complicates page editing.
+
+== Wiki table markup summary ==
+{|cellpadding="5" cellspacing="0" border="1" width="60%"
+|
+ <nowiki>{|</nowiki>
+| ''''''table start''''''
+|-
+|
+ <nowiki>|+</nowiki>
+| table ''''''caption,'''''' ''''optional;'''' only between ''''''table start'''''' and first ''''''table row''''''
+|-
+|
+ <nowiki>|-</nowiki>
+| ''''''table row,'''''' ''''optional on first row'''' -- wiki engine assumes the first row
+|-
+|
+ <nowiki>!</nowiki> 
+| ''''''table header'''''' cell, ''''optional.'''' Consecutive ''''''table header'''''' cells may be added on same line separated by double marks (<code>!!</code>) or start on new lines, each with its own single mark (<code>!</code>).
+|- 
+|
+ <nowiki>|</nowiki>
+| ''''''table data'''''' cell, ''''required!'''' Consecutive ''''''table data'''''' cells may be added on same line separated by double marks (<code><nowiki>||</nowiki></code>) or start on new lines, each with its own single mark (<code><nowiki>|</nowiki></code>).
+|-
+|
+ <nowiki>|}</nowiki>
+| ''''''table end'''''' 
+|}
+*The above marks must ''''''start on a new line'''''' except the double <code>||</code> and <code>!!</code> for optionally adding consecutive cells to a line. However, blank spaces at the beginning of a line are ignored.
+*''''''XHTML attributes.'''''' Each mark, except table end, optionally accepts one or more XHTML attributes. Attributes must be on the same line as the mark. Separate attributes from each other with a single space. 
+**Cells and caption (<code>|</code> or <code>||</code>, <code>!</code> or <code>!!</code>, and <code>|+</code>) hold content. So separate any attributes from content with a single pipe (<code>|</code>). Cell content may follow on same line or on following lines.
+**Table and row marks (<code>{|</code> and <code>|-</code>) do not directly hold content. Do ''''not'''' add pipe (<code>|</code>) after their optional attributes. If you erroneously add a pipe after attributes for the table mark or row mark the parser will delete it ''''and'''' your final attribute if it was touching the erroneous pipe!
+*''''''Content'''''' may (a) follow its cell mark on the same line after any optional XHTML attributes or (b) on lines below the cell mark. Content that uses wiki markup that itself needs to start on a new line, such as lists, headings, or nested tables, must be on its own new line.
+*''''''Escaping'''''' to insert a pipe (<code>|</code>) character into a table use the &lt;nowiki&gt; markup
+
+==Basics==
+The following table lacks borders and good spacing but shows the simplest wiki markup table structure.
+
+{| cellspacing="0" border="1"
+!style="width:50%"|You type
+!style="width:50%"|You get
+|-
+|
+<pre>
+{|
+|Orange
+|Apple
+|-
+|Bread
+|Pie
+|-
+|Butter
+|Ice cream 
+|}
+</pre>
+|
+{|
+|Orange
+|Apple
+|-
+|Bread
+|Pie
+|-
+|Butter
+|Ice cream 
+|}
+|}
+
+The cells in the same row can be listed on one line separated by <code>||</code>.
+
+Extra spaces within cells in the wiki markup, as in the wiki markup below, do not affect the actual table rendering.
+
+{| cellspacing="0" border="1"
+!style="width:50%"|You type
+!style="width:50%"|You get
+|-
+|
+<pre>
+{|
+| Orange || Apple || more
+|-
+| Bread || Pie || more
+|-
+| Butter || Ice cream || and more
+|}
+</pre>
+|
+{|
+| Orange || Apple || more
+|-
+| Bread || Pie || more
+|-
+| Butter || Ice cream || and more
+|}
+|}
+
+=== Table headers ===
+Table headers can be created by using "<code>!</code>" instead of "<code>|</code>". Headers usually show up bold and centered by default.
+
+{| cellspacing="0" border="1"
+!style="width:50%"|You type
+!style="width:50%"|You get
+|-
+|
+<pre>
+{|
+! Item
+! Amount
+! Cost
+|-
+|Orange
+|10
+|7.00
+|-
+|Bread
+|4
+|3.00
+|-
+|Butter
+|1
+|5.00
+|-
+!Total
+|
+|15.00
+|}
+</pre>
+|
+{|
+! Item
+! Amount
+! Cost
+|-
+|Orange
+|10
+|7.00
+|-
+|Bread
+|4
+|3.00
+|-
+|Butter
+|1
+|5.00
+|-
+!Total
+|
+|15.00
+|}
+|}
+
+===Caption===
+A ''''''table caption'''''' can be added to the top of any table as follows.
+
+{| cellspacing="0" border="1"
+!style="width:50%"|You type
+!style="width:50%"|You get
+|-
+|
+<pre>
+{|
+|+Food complements
+|-
+|Orange
+|Apple
+|-
+|Bread
+|Pie
+|-
+|Butter
+|Ice cream 
+|}
+</pre>
+|
+{|
+|+ Food complements
+|-
+|Orange
+|Apple
+|-
+|Bread
+|Pie
+|-
+|Butter
+|Ice cream 
+|}
+|}
+
+== XHTML attributes ==
+You can add XHTML attributes to tables. For the authoriative source on these, see [http://www.w3.org/TR/REC-html40/struct/tables.html the W3C''s HTML 4.01 Specification page on tables].
+
+=== Attributes on tables ===
+Placing attributes after the table start tag (<code>{|</code>) applies attributes to the entire table.
+
+{| cellspacing="0" border="1"
+!style="width:50%"|You type
+!style="width:50%"|You get
+|-
+|
+<pre>
+{| border="1"
+|Orange
+|Apple
+|12,333.00
+|-
+|Bread
+|Pie
+|500.00
+|-
+|Butter
+|Ice cream
+|1.00
+|}
+</pre>
+|
+{| border="1"
+|Orange
+|Apple
+|12,333.00
+|-
+|Bread
+|Pie
+|500.00
+|-
+|Butter
+|Ice cream
+|1.00
+|}
+|}
+
+=== Attributes on cells ===
+You can put attributes on individual ''''''cells''''''. For example, numbers may look better aligned right.
+
+{| cellspacing="0" border="1"
+!style="width:50%"|You type
+!style="width:50%"|You get
+|-
+|
+<pre>
+{| border="1"
+|Orange
+|Apple
+|align="right" | 12,333.00
+|-
+|Bread
+|Pie
+|align="right" | 500.00
+|-
+|Butter
+|Ice cream
+|align="right" | 1.00
+|}
+</pre>
+|
+{| border="1"
+|Orange
+|Apple
+|align="right"|12,333.00
+|-
+|Bread
+|Pie
+|align="right"|500.00
+|-
+|Butter
+|Ice cream
+|align="right"|1.00
+|}
+|}
+
+You can also use ''''''cell'''''' attributes when you are listing multiple ''''''cells'''''' on a single line. Note that the ''''''cells'''''' are separated by <code>||</code>, and within each ''''''cell'''''' the attribute(s) and value are separated by <code>|</code>.
+
+{| cellspacing="0" border="1"
+!style="width:50%"|You type
+!style="width:50%"|You get
+|-
+|
+<pre>
+{| border="1"
+| Orange || Apple || align="right" | 12,333.00
+|-
+| Bread || Pie || align="right" | 500.00
+|-
+| Butter || Ice cream || align="right" | 1.00
+|}
+</pre>
+|
+{| border="1"
+| Orange || Apple || align="right" | 12,333.00
+|-
+| Bread || Pie || align="right" | 500.00
+|-
+| Butter || Ice cream || align="right" | 1.00
+|}
+|}
+
+===Attributes on rows===
+You can put attributes on individual ''''''rows'''''', too.
+
+{| cellspacing="0" border="1"
+!style="width:50%"|You type
+!style="width:50%"|You get
+|-
+|
+<pre>
+{| border="1"
+|Orange
+|Apple
+|align="right"|12,333.00
+|-
+|Bread
+|Pie
+|align="right"|500.00
+|- style="font-style:italic; color:green;"
+|Butter
+|Ice cream
+|align="right"|1.00
+|}
+</pre>
+|
+{| border="1"
+|Orange
+|Apple
+|align="right"|12,333.00
+|-
+|Bread
+|Pie
+|align="right"|500.00
+|- style="font-style:italic; color:green;"
+|Butter
+|Ice cream
+|align="right"|1.00
+|}
+|}
+
+===With HTML attributes and CSS styles===
+CSS style attributes can be added with or without other HTML attributes.
+
+{| cellspacing="0" border="1"
+!style="width:50%"|You type
+!style="width:50%"|You get
+|-
+|
+<pre style="white-space:-moz-pre-wrap; white-space:-pre-wrap; white-space:-o-pre-wrap; white-space:pre-wrap; word-wrap:break-word; word-break:break-all;">
+{| style="color:green; background-color:#ffffcc;" cellpadding="20" cellspacing="0" border="1"
+|Orange
+|Apple
+|-
+|Bread
+|Pie
+|-
+|Butter
+|Ice cream 
+|}
+</pre>
+|
+{| style="color:green; background-color:#ffffcc;" cellpadding="20" cellspacing="0" border="1"
+|Orange
+|Apple
+|-
+|Bread
+|Pie
+|-
+|Butter
+|Ice cream 
+|}
+|}
+
+''''''Attributes'''''' can be added to the caption and headers as follows.
+
+{| cellspacing="0" border="1"
+!style="width:50%"|You type
+!style="width:50%"|You get
+|-
+|
+<pre style="white-space:-moz-pre-wrap; white-space:-pre-wrap; white-space:-o-pre-wrap; white-space:pre-wrap; word-wrap:break-word; word-break:break-all;">
+{| border="1" cellpadding="20" cellspacing="0"
+|+ align="bottom" style="color:#e76700;" |''''Food complements''''
+|-
+|Orange
+|Apple
+|-
+|Bread
+|Pie
+|-
+|Butter
+|Ice cream 
+|}
+</pre>
+|
+{| border="1" cellpadding="20" cellspacing="0"
+|+ align="bottom" style="color:#e76700;" |''''Food complements''''
+|-
+|Orange
+|Apple
+|-
+|Bread
+|Pie
+|-
+|Butter
+|Ice cream 
+|}
+|}
+
+==Caveats==
+===Negative numbers===
+If you start a cell on a new line with a negative number with a minus sign (or a parameter that evaluates to a negative number), your table can get broken, because the characters <code>|-</code> will be parsed as the wiki markup for table row, not table cell. To avoid this, insert a space before the value (<code>| -6</code>) or use in-line cell markup (<code>|| -6</code>).
+===CSS vs Attributes===
+Table borders specified through CSS rather then the border attribute will render incorrectly in a small subset of text browsers.
+
+{{Languages}}
+[[Category:Help|Tables]]
+
+', 'db:migrate')[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages"."id" = 8) [0m
+  [4;36;1mPage Update (0.2ms)[0m   [0;1mUPDATE "pages" SET "current_revision_id" = 8, "updated_at" = '2012-06-19 07:50:37' WHERE "id" = 8[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20090710024623')[0m
+Migrating to CreatePageLinks (20090713035953)
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCREATE TABLE "page_links" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "page_id" integer NOT NULL, "link_id" integer NOT NULL, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20090713035953')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("page_links")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("pages")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("revisions")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("users")[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2012-06-19 13:20:50) [GET]
+  Parameters: {"id"=>"Main_Page"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (namespace_id = 1) ORDER BY created_at DESC LIMIT 0, 5[0m
+Rendering template within layouts/default
+Rendering pages/index
+Completed in 15ms (View: 6, DB: 0) | 200 OK [http://local.wikiheroku.ntn/wiki?id=Main_Page]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2012-06-19 13:20:51) [GET]
+  Parameters: {"id"=>"Main_Page"}
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (namespace_id = 1) ORDER BY created_at DESC LIMIT 0, 5[0m
+Rendering template within layouts/default
+Rendering pages/index
+Completed in 14ms (View: 5, DB: 0) | 200 OK [http://local.wikiheroku.ntn/wiki?id=Main_Page]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2012-06-19 13:20:52) [GET]
+  Parameters: {"id"=>"Main_Page"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (namespace_id = 1) ORDER BY created_at DESC LIMIT 0, 5[0m
+Rendering template within layouts/default
+Rendering pages/index
+Completed in 13ms (View: 5, DB: 0) | 200 OK [http://local.wikiheroku.ntn/wiki?id=Main_Page]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2012-06-19 13:20:52) [GET]
+  Parameters: {"id"=>"Main_Page"}
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (namespace_id = 1) ORDER BY created_at DESC LIMIT 0, 5[0m
+Rendering template within layouts/default
+Rendering pages/index
+Completed in 14ms (View: 5, DB: 0) | 200 OK [http://local.wikiheroku.ntn/wiki?id=Main_Page]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2012-06-19 13:20:53) [GET]
+  Parameters: {"id"=>"Main_Page"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (namespace_id = 1) ORDER BY created_at DESC LIMIT 0, 5[0m
+Rendering template within layouts/default
+Rendering pages/index
+Completed in 13ms (View: 5, DB: 0) | 200 OK [http://local.wikiheroku.ntn/wiki?id=Main_Page]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2012-06-19 13:20:53) [GET]
+  Parameters: {"id"=>"Main_Page"}
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (namespace_id = 1) ORDER BY created_at DESC LIMIT 0, 5[0m
+Rendering template within layouts/default
+Rendering pages/index
+Completed in 16ms (View: 6, DB: 0) | 200 OK [http://local.wikiheroku.ntn/wiki?id=Main_Page]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2012-06-19 13:20:53) [GET]
+  Parameters: {"id"=>"Main_Page"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (namespace_id = 1) ORDER BY created_at DESC LIMIT 0, 5[0m
+Rendering template within layouts/default
+Rendering pages/index
+Completed in 14ms (View: 6, DB: 0) | 200 OK [http://local.wikiheroku.ntn/wiki?id=Main_Page]
+
+
+Processing PagesController#show (for 127.0.0.1 at 2012-06-19 13:20:55) [GET]
+  Parameters: {"id"=>"Meallogger"}
+  [4;36;1mNamespace Load (45.3ms)[0m   [0;1mSELECT * FROM `namespaces` WHERE (`namespaces`.`name` = 'main') LIMIT 1[0m
+  [4;35;1mPage Load (66.8ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`namespace_id` = 1 AND `pages`.`name` = 'Meallogger') LIMIT 1[0m
+  [4;36;1mRevision Load (9.7ms)[0m   [0;1mSELECT * FROM `revisions` WHERE (`revisions`.`id` = 49) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `namespaces` WHERE (`namespaces`.`name` = 'main') LIMIT 1[0m
+  [4;36;1mNamespace Load (0.5ms)[0m   [0;1mSELECT * FROM `namespaces` WHERE (`namespaces`.`id` = 1) [0m
+Rendering template within layouts/default
+Rendering pages/show
+Rendered pages/_languages (1.2ms)
+  [4;35;1mNamespace Load (0.4ms)[0m   [0mSELECT * FROM `namespaces` WHERE (`namespaces`.talk_for_id = 1) LIMIT 1[0m
+  [4;36;1mNamespace Load (0.4ms)[0m   [0;1mSELECT * FROM `namespaces` WHERE (`namespaces`.`name` = 'talk') LIMIT 1[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`namespace_id` = 3 AND `pages`.`name` = 'Meallogger') LIMIT 1[0m
+  [4;36;1mNamespace Load (0.2ms)[0m   [0;1mSELECT * FROM `namespaces` WHERE (`namespaces`.`id` = 3) [0m
+Completed in 287ms (View: 27, DB: 123) | 200 OK [http://local.wikiheroku.ntn/wiki/Meallogger]
+
+
+Processing LoginController#logout (for 127.0.0.1 at 2012-06-19 13:20:57) [GET]
+Redirected to http://local.wikiheroku.ntn/
+Completed in 3ms (DB: 0) | 302 Found [http://local.wikiheroku.ntn/logout]
+
+
+Processing LoginController#new (for 127.0.0.1 at 2012-06-19 13:20:57) [GET]
+Rendering template within layouts/default
+Rendering login/new
+Completed in 14ms (View: 4, DB: 0) | 200 OK [http://local.wikiheroku.ntn/]
+
+
+Processing LoginController#create (for 127.0.0.1 at 2012-06-19 13:20:58) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"C17+NJCT1zI9gnmRgmekNuqoAR+Nf9tpzrGil4iSToE=", "user"=>{"password"=>"admin", "email"=>"admin@wiki.com"}}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`email` = 'admin@wiki.com') LIMIT 1[0m
+Redirected to http://local.wikiheroku.ntn/wiki
+Completed in 10ms (DB: 0) | 302 Found [http://local.wikiheroku.ntn/login]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2012-06-19 13:20:58) [GET]
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (namespace_id = 1) ORDER BY created_at DESC LIMIT 0, 5[0m
+Rendering template within layouts/default
+Rendering pages/index
+Completed in 13ms (View: 5, DB: 0) | 200 OK [http://local.wikiheroku.ntn/wiki]
