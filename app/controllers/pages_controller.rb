@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
 
-  before_filter :require_user	
+  #before_filter :require_user	
   layout "default"
 
   include WikiCloth

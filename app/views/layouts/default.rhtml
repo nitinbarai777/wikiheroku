@@ -8,15 +8,16 @@
   <body>
     <div id="container">
         <div id="topnav">
-		  <% if !session[:user_id].nil?	 %>
-          <span style="float:left;font-size:1.8em"><b><%= link_to 'wikicloth-wiki', { :action => "index", :id => "Main_Page" }, { :style => "color:#000" }%></b></span> 
+		  <% #if !session[:user_id].nil?	 %>
+          
           <%= link_to 'Recent Changes', :action => "show", :id => "Special:RecentChanges" %> -
-          <%= link_to 'Random Page', :action => "show", :id => "Special:RandomPage" %> -
-          <%= link_to 'Help', :action => "show", :id => "Help:Contents" %> - 
-		  <%= link_to 'Logout', url_for("/logout") %></span>
+          <%# link_to 'Random Page', :action => "show", :id => "Special:RandomPage" %>
+          <%= link_to 'Help', :action => "show", :id => "Help:Contents" %> -
+          <%= link_to 'Home', :controller => 'pages', :action => "index" %>
+		  <%# link_to 'Logout', url_for("/logout") %>
 	
           <form action="<%= url_for :action => "show", :id => "Special:Search" %>" method="get"><input name="query" type="text" /> <input type="submit" value="Search" /></form>
-		  <% end %>
+		  <% #end %>
         </div>
 	<div id="content">
           <div id="pagenav">
