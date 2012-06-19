@@ -13,7 +13,7 @@ ActionController::Routing::Routes.draw do |map|
   map.connect 'wiki/new', :controller => "pages", :action => "new"
 
   #map.connect '', :controller => "pages", :action => "index"
-  map.connect '', :controller => "login", :action => "new"
+  map.connect '', :controller => "pages", :action => "index"
   map.connect '/logout', :controller => "login", :action => "logout"
   map.resources :pages
   map.resources :login
