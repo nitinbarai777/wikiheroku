@@ -1,9 +1,9 @@
 Install
 
 =======
-
-1) bundle install
-2) rake db:migrate
+1) gem update --system 1.4.2
+2) bundle install
+3) rake db:migrate
 
 
 Admin credential
